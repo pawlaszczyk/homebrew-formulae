@@ -18,6 +18,13 @@ class Tmux < Formula
     sha256 cellar: :any, catalina:      "e1148f3043ef1e77e942bc654e6b3867f40401b0ba93e6d44a460467c51e0a3b"
     sha256 cellar: :any, mojave:        "3ba85f3524acbf5e1fb04135fa9b7f2bbdd5d3c8ed94189685be50ca19722bbe"
     sha256 cellar: :any, high_sierra:   "ec5fcbdc337221efdbf3f21121fb087b998dd7d3bf6dd5bb72e352d9c9463a57"
+    sha256 cellar: :any, arm64_sonoma:   "ecf92b2374290a7507643e9a2e64d4fcae14ba5f3879334360e59ff4ce0b0026"
+    sha256 cellar: :any, arm64_ventura:  "7734ce615d9d9d601a290de41dd2397e52b4e400dc3ec8a5c89bb3113a5940be"
+    sha256 cellar: :any, arm64_monterey: "a572926a8cd09d7d277044da3c66e0ca5953661b1e7842ec0f4f55ea37a5cf47"
+    sha256 cellar: :any, sonoma:         "23fa02d4c9d88af431af5b36782c76dea94713618f65c2ee5901dea323e7eeb8"
+    sha256 cellar: :any, ventura:        "b50be8010c892ffbd1cf36d09eedf20cf4e56d2ab3adace458bc7bbd7ee98ef7"
+    sha256 cellar: :any, monterey:       "92178d27493c2a2bce4940278bb6e658890a731334b75134c9009715d463cdfd"
+
   end
 
   head do
