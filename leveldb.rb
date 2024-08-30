@@ -11,6 +11,13 @@ class Leveldb < Formula
     sha256 cellar: :any, mojave:      "22e4a129bedd5030525f749a5b5ec978bf6da0a9b0625fe829da482a5ab85755"
     sha256 cellar: :any, high_sierra: "b1cf697cad28caac418d2e0ef49bc90863f389402185d3cc0f1f7079516d02c2"
     sha256 cellar: :any, sierra:      "810dbeba5e3f7d72d4772b9eff4d9022a1240c0abc6235afbd343c199741e6f7"
+    sha256 cellar: :any, arm64_sonoma:   "ecf92b2374290a7507643e9a2e64d4fcae14ba5f3879334360e59ff4ce0b0026"
+    sha256 cellar: :any, arm64_ventura:  "7734ce615d9d9d601a290de41dd2397e52b4e400dc3ec8a5c89bb3113a5940be"
+    sha256 cellar: :any, arm64_monterey: "a572926a8cd09d7d277044da3c66e0ca5953661b1e7842ec0f4f55ea37a5cf47"
+    sha256 cellar: :any, sonoma:         "23fa02d4c9d88af431af5b36782c76dea94713618f65c2ee5901dea323e7eeb8"
+    sha256 cellar: :any, ventura:        "b50be8010c892ffbd1cf36d09eedf20cf4e56d2ab3adace458bc7bbd7ee98ef7"
+    sha256 cellar: :any, monterey:       "92178d27493c2a2bce4940278bb6e658890a731334b75134c9009715d463cdfd"
+
   end
 
   depends_on "cmake" => :build
